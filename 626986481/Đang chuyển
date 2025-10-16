@@ -1,0 +1,161 @@
+{
+  "webhooksCallback": "https://giavu-test.erpviet.vn/nhanh/webhook",
+  "postFields": {
+    "event": "orderUpdate",
+    "businessId": 159405,
+    "data": {
+      "depot": {
+        "id": 175462,
+        "name": "Kho Sài Gòn",
+        "mobile": "0377511001",
+        "address": "551/212/32 Lê Văn Khương, Phường Hiệp Thành, Quận 12, TP. Hồ Chí Minh",
+        "pickupDepot": {
+          "id": 0
+        }
+      },
+      "sender": {
+        "locations": {
+          "cityId": 0,
+          "districtId": 0,
+          "wardId": 0
+        }
+      },
+      "customer": {
+        "id": 165814,
+        "name": "nguyễn thị lý",
+        "mobile": "******0454",
+        "address": "khu nghĩa hổ phường kim son thi xã đong triều quảng ninh",
+        "locations": {
+          "cityId": 270,
+          "districtId": 734,
+          "wardId": 3854
+        }
+      },
+      "info": {
+        "id": 626986481,
+        "type": 1,
+        "returnFromOrderId": 0,
+        "status": 59,
+        "discount": 91000,
+        "usedPoints": {
+          "points": 0,
+          "amount": 0
+        },
+        "vat": {
+          "percent": 0,
+          "amount": 0
+        },
+        "paymentMethod": 1,
+        "createdBy": {
+          "id": 3186356,
+          "name": "Nguyễn Hồng Nhung"
+        },
+        "sale": {
+          "id": 3186356,
+          "name": "Nguyễn Hồng Nhung"
+        },
+        "technicalStaff": {
+          "id": 0
+        },
+        "customerCare": {
+          "id": 0
+        },
+        "createdAt": 1760597677,
+        "updatedAt": 1760603375,
+        "packedAt": 1760597912,
+        "description": "Cho KH kiểm tra hàng, cắm điện test máy, không được cho thực phẩm vào máy",
+        "orderPartDeliveries": [
+          {
+            "id": 0,
+            "type": 0,
+            "totalQuantity": 0,
+            "totalProductAmount": 0,
+            "status": 0
+          }
+        ],
+        "trackingUrl": "https://nhanh.vn/tracking?businessId=159405&id=626986481&key=aeb024626e0d"
+      },
+      "products": [
+        {
+          "id": 0,
+          "typeId": 0,
+          "weight": 0,
+          "quantity": 0,
+          "price": 0,
+          "originalPrice": 0,
+          "discount": {
+            "percent": 0,
+            "amount": 0
+          },
+          "available": 0,
+          "avgCost": 0,
+          "vat": {
+            "percent": 0,
+            "amount": 0
+          },
+          "batch": {
+            "id": 0
+          },
+          "combos": [
+            {
+              "id": 0,
+              "quantity": 0
+            }
+          ],
+          "unit": {
+            "id": 0,
+            "quantity": 0
+          },
+          "gifts": [
+            {
+              "id": 0,
+              "quantity": 0
+            }
+          ]
+        }
+      ],
+      "carrier": {
+        "id": 29,
+        "name": "SPX Express",
+        "orderPackageSize": {
+          "height": 0,
+          "merge": 0,
+          "length": 0,
+          "weight": 0,
+          "width": 0
+        },
+        "service": {
+          "id": 0,
+          "name": "DefaultService",
+          "code": "DefaultService"
+        },
+        "carrierCode": "SPXVN05995939714A",
+        "isPartDelivery": 0,
+        "sendCarrier": {
+          "type": 2,
+          "date": "2025-10-16"
+        },
+        "deliveryDate": "2025-10-16",
+        "weight": 2000,
+        "shipFee": 14000,
+        "codFee": 0,
+        "declaredFee": 0,
+        "returnFee": 0,
+        "customerShipFee": 0
+      },
+      "channel": {
+        "ecomOrderId": 0,
+        "saleChannel": 1,
+        "trafficSource": {
+          "id": 4,
+          "name": "Masuto ~ Bán lẻ"
+        },
+        "facebook": {
+          "adId": "0",
+          "postId": "0"
+        }
+      }
+    },
+    "webhooksVerifyToken": "Hidden content"
+  }
+}
