@@ -1,0 +1,161 @@
+{
+  "webhooksCallback": "https://giavu-test.erpviet.vn/nhanh/webhook",
+  "postFields": {
+    "event": "orderUpdate",
+    "businessId": 159405,
+    "data": {
+      "depot": {
+        "id": 166275,
+        "name": "Kho vận hành - 164 Tựu Liệt",
+        "mobile": "0377511001",
+        "address": "164 Tựu Liệt, Tam Hiệp, Thanh Trì, Hà Nội",
+        "pickupDepot": {
+          "id": 0
+        }
+      },
+      "sender": {
+        "locations": {
+          "cityId": 0,
+          "districtId": 0,
+          "wardId": 0
+        }
+      },
+      "customer": {
+        "id": 149786,
+        "name": "Thúy Hán",
+        "mobile": "******7563",
+        "address": "Khu 8 xã Bắc Sơn huyện tam nông tỉnh phú thọ",
+        "locations": {
+          "cityId": 292,
+          "districtId": 954,
+          "wardId": 12387
+        }
+      },
+      "info": {
+        "id": 626378298,
+        "type": 1,
+        "returnFromOrderId": 0,
+        "status": 60,
+        "discount": 0,
+        "usedPoints": {
+          "points": 0,
+          "amount": 0
+        },
+        "vat": {
+          "percent": 0,
+          "amount": 0
+        },
+        "paymentMethod": 1,
+        "createdBy": {
+          "id": 3466459,
+          "name": "Lê Minh Tâm"
+        },
+        "sale": {
+          "id": 3466459,
+          "name": "Lê Minh Tâm"
+        },
+        "technicalStaff": {
+          "id": 0
+        },
+        "customerCare": {
+          "id": 0
+        },
+        "createdAt": 1760514892,
+        "updatedAt": 1760598192,
+        "packedAt": 1760516376,
+        "description": "1 trục ép máy ép Juice",
+        "orderPartDeliveries": [
+          {
+            "id": 0,
+            "type": 0,
+            "totalQuantity": 0,
+            "totalProductAmount": 0,
+            "status": 0
+          }
+        ],
+        "trackingUrl": "https://nhanh.vn/tracking?businessId=159405&id=626378298&key=fe9cbf901868"
+      },
+      "products": [
+        {
+          "id": 0,
+          "typeId": 0,
+          "weight": 0,
+          "quantity": 0,
+          "price": 0,
+          "originalPrice": 0,
+          "discount": {
+            "percent": 0,
+            "amount": 0
+          },
+          "available": 0,
+          "avgCost": 0,
+          "vat": {
+            "percent": 0,
+            "amount": 0
+          },
+          "batch": {
+            "id": 0
+          },
+          "combos": [
+            {
+              "id": 0,
+              "quantity": 0
+            }
+          ],
+          "unit": {
+            "id": 0,
+            "quantity": 0
+          },
+          "gifts": [
+            {
+              "id": 0,
+              "quantity": 0
+            }
+          ]
+        }
+      ],
+      "carrier": {
+        "id": 29,
+        "name": "SPX Express",
+        "orderPackageSize": {
+          "height": 0,
+          "merge": 0,
+          "length": 0,
+          "weight": 0,
+          "width": 0
+        },
+        "service": {
+          "id": 0,
+          "name": "DefaultService",
+          "code": "DefaultService"
+        },
+        "carrierCode": "SPXVN05676380009A",
+        "isPartDelivery": 0,
+        "sendCarrier": {
+          "type": 2,
+          "date": "2025-10-15"
+        },
+        "deliveryDate": "2025-10-16",
+        "weight": 50,
+        "shipFee": 11000,
+        "codFee": 0,
+        "declaredFee": 0,
+        "returnFee": 0,
+        "customerShipFee": 10000
+      },
+      "channel": {
+        "ecomOrderId": 0,
+        "saleChannel": 1,
+        "trafficSource": {
+          "id": 4,
+          "name": "Masuto ~ Bán lẻ"
+        },
+        "facebook": {
+          "adId": "0",
+          "postId": "0"
+        }
+      }
+    },
+    "webhooksVerifyToken": "Hidden content"
+  }
+}
