@@ -1,0 +1,161 @@
+{
+  "webhooksCallback": "https://giavu-test.erpviet.vn/nhanh/webhook",
+  "postFields": {
+    "event": "orderUpdate",
+    "businessId": 159405,
+    "data": {
+      "depot": {
+        "id": 166275,
+        "name": "Kho vận hành - 164 Tựu Liệt",
+        "mobile": "0377511001",
+        "address": "164 Tựu Liệt, Tam Hiệp, Thanh Trì, Hà Nội",
+        "pickupDepot": {
+          "id": 0
+        }
+      },
+      "sender": {
+        "locations": {
+          "cityId": 0,
+          "districtId": 0,
+          "wardId": 0
+        }
+      },
+      "customer": {
+        "id": 70815,
+        "name": "Trần Thị Ngọc Thảo",
+        "mobile": "******1331",
+        "address": "Âp 7, xã Phước đông, cần đước, long an, Xã Phước Đông, Huyện Cần Đước, Long An",
+        "locations": {
+          "cityId": 288,
+          "districtId": 661,
+          "wardId": 10747
+        }
+      },
+      "info": {
+        "id": 627026090,
+        "type": 1,
+        "returnFromOrderId": 0,
+        "status": 42,
+        "discount": 0,
+        "usedPoints": {
+          "points": 0,
+          "amount": 0
+        },
+        "vat": {
+          "percent": 0,
+          "amount": 0
+        },
+        "paymentMethod": 1,
+        "createdBy": {
+          "id": 3186356,
+          "name": "Nguyễn Hồng Nhung"
+        },
+        "sale": {
+          "id": 3186356,
+          "name": "Nguyễn Hồng Nhung"
+        },
+        "technicalStaff": {
+          "id": 0
+        },
+        "customerCare": {
+          "id": 0
+        },
+        "createdAt": 1760602069,
+        "updatedAt": 1760602380,
+        "packedAt": 1760602380,
+        "description": "Cho KH kiểm tra hàng, cắm điện test máy, không được cho thực phẩm vào máy",
+        "orderPartDeliveries": [
+          {
+            "id": 0,
+            "type": 0,
+            "totalQuantity": 0,
+            "totalProductAmount": 0,
+            "status": 0
+          }
+        ],
+        "trackingUrl": "https://nhanh.vn/tracking?businessId=159405&id=627026090&key=8f1ddba4afff"
+      },
+      "products": [
+        {
+          "id": 0,
+          "typeId": 0,
+          "weight": 0,
+          "quantity": 0,
+          "price": 0,
+          "originalPrice": 0,
+          "discount": {
+            "percent": 0,
+            "amount": 0
+          },
+          "available": 0,
+          "avgCost": 0,
+          "vat": {
+            "percent": 0,
+            "amount": 0
+          },
+          "batch": {
+            "id": 0
+          },
+          "combos": [
+            {
+              "id": 0,
+              "quantity": 0
+            }
+          ],
+          "unit": {
+            "id": 0,
+            "quantity": 0
+          },
+          "gifts": [
+            {
+              "id": 0,
+              "quantity": 0
+            }
+          ]
+        }
+      ],
+      "carrier": {
+        "id": 5,
+        "name": "Giaohangnhanh",
+        "orderPackageSize": {
+          "height": 0,
+          "merge": 0,
+          "length": 0,
+          "weight": 0,
+          "width": 0
+        },
+        "service": {
+          "id": 0,
+          "name": "Giao tiêu chuẩn",
+          "code": "2"
+        },
+        "carrierCode": "NVS627026090",
+        "isPartDelivery": 0,
+        "sendCarrier": {
+          "type": 2,
+          "date": "2025-10-16"
+        },
+        "deliveryDate": "2025-10-16",
+        "weight": 6100,
+        "shipFee": 50000,
+        "codFee": 0,
+        "declaredFee": 16450,
+        "returnFee": 0,
+        "customerShipFee": 0
+      },
+      "channel": {
+        "ecomOrderId": 0,
+        "saleChannel": 1,
+        "trafficSource": {
+          "id": 4,
+          "name": "Masuto ~ Bán lẻ"
+        },
+        "facebook": {
+          "adId": "0",
+          "postId": "0"
+        }
+      }
+    },
+    "webhooksVerifyToken": "Hidden content"
+  }
+}
